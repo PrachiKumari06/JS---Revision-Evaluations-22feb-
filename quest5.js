@@ -23,3 +23,9 @@ function createCountdown(seconds, onTick, onComplete){
         }
     }
 }
+
+let a=createCountdown(5,(time)=>{
+    console.log(time);
+},()=>{
+    console.log("Countdown complete");
+});

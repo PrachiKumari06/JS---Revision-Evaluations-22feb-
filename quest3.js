@@ -19,3 +19,10 @@ return {
 }
 }
 }
+
+let a=mySetInterval(()=>{
+    console.log("hello");
+},1000);
+setTimeout(()=>{
+    a.stop();
+},5000)
